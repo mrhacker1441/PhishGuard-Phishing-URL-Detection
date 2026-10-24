@@ -1,0 +1,54 @@
+/* PhishGuard - Cybersecurity Dashboard Theme */
+
+.stApp {
+    background: linear-gradient(135deg, #080f1e, #111c35);
+    color: #e8f0ff;
+}
+
+/* Main heading */
+h1 {
+    color: #38bdf8 !important;
+    font-size: 3rem !important;
+    font-weight: 800 !important;
+}
+
+/* Section headings */
+h2, h3 {
+    color: #7dd3fc !important;
+}
+
+/* Buttons */
+.stButton > button {
+    background: linear-gradient(90deg, #0284c7, #2563eb);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 28px;
+    font-weight: bold;
+}
+
+.stButton > button:hover {
+    background: #0369a1;
+    color: white;
+}
+
+/* URL input */
+.stTextInput input {
+    background-color: #17233b;
+    color: white;
+    border: 1px solid #38bdf8;
+    border-radius: 10px;
+}
+
+/* Metric cards */
+[data-testid="stMetric"] {
+    background-color: #17233b;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #243b55;
+}
+
+/* Dividers */
+hr {
+    border-color: #243b55;
+}
